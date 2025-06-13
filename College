@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sri Vasavi Institute of Engineering & Technology</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background: #fff;
+      text-align: center;
+      padding: 10px;
+      border-bottom: 2px solid orange;
+    }
+    header img {
+      height: 80px;
+    }
+    .navbar {
+      background-color: orange;
+      padding: 10px;
+    }
+    .navbar .menu-toggle {
+      display: none;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #003366;
+    }
+    nav ul li {
+      position: relative;
+    }
+    nav ul li a {
+      display: block;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+    }
+    nav ul li:hover {
+      background-color: #002244;
+    }
+    section {
+      padding: 20px;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .navbar .menu-toggle {
+        display: block;
+        color: white;
+        background: #003366;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+      }
+      nav ul {
+        display: none;
+        flex-direction: column;
+      }
+      nav ul.show {
+        display: flex;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://sviet.edu.in/wp-content/uploads/2021/03/cropped-sviet-logo.png" alt="SVIET Logo">
+    <h2>Sri Vasavi Institute of Engineering & Technology</h2>
+  </header>
+
+  <div class="navbar">
+    <div class="menu-toggle" onclick="toggleMenu()">☰ Menu</div>
+    <nav>
+      <ul id="mainMenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Admissions</a></li>
+        <li><a href="#">Academics</a></li>
+        <li><a href="#">Departments</a></li>
+        <li><a href="#">Campus</a></li>
+        <li><a href="#">Examinations</a></li>
+        <li><a href="#">Placements</a></li>
+        <li><a href="#">Alumni</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <section>
+    <h3>Welcome to SVIET</h3>
+    <p>This is a demo college website project. You can add content for each section like About, Admissions, Gallery, etc.</p>
+    <button onclick="alert('More info coming soon')">Discover More</button>
+    <button onclick="alert('Redirecting to contact form...')">Contact Us</button>
+  </section>
+
+  <footer>
+    &copy; 2025 Sri Vasavi Institute of Engineering & Technology. All Rights Reserved.
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('mainMenu');
+      menu.classList.toggle('show');
+    }
+  </script>
+
+</body>
+</html>
