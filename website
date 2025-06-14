@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clg web page</title>
+    <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+}
+header {
+  background-color:#f9f9f9;
+
+  color: rgb(81, 128, 189);
+  padding: 20px;
+  text-align: center;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 10px;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #588686;
+  text-decoration: none;
+}
+.hero {
+  background-color:#294a9f;
+  padding: 40px;
+  text-align: center;
+}
+
+.about {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+footer {
+  background-color: #98395f;
+  color: #0b6c9caa;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+}
+body {
+            font-family: Arial, sans-serif;
+        }
+        
+        
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color:#ebb3b3;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;    
+            border: none;
+            outline: none;
+            color:rgb(175, 74, 74);
+            padding: 14px 20px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+            cursor: pointer;
+        }
+
+        .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color:#004080;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color::aliceblue;
+            min-width: 180px;
+            box-shadow: 8x;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: rgb(28, 34, 84);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color:#004080;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    
+    </style>
+</head>
+<body>
+    
+  <header>
+    <header>
+    <img src="https://www.sviet.edu.in/wp-content/uploads/2023/06/SVIET-LOGO-Edited-1.png" alt="SVIET Logo" width="10%">
+    
+    
+    <h1 style="color: rgb(22, 41, 105);">SRI VASAVI INSTITUTE OF ENGINEERING & TECNOLOGY</h1>
+    <nav>
+      <ul>
+        <li><a href="home1.html">Home</a></li>
+        <div class="navbar">
+        <div class="dropdown">
+        <button class="dropbtn">About US</button>
+          <div class="dropdown-content">
+            <a href="About sviet.html">About sviet</a>
+          </div>
+          </div>
+        </div>
+         <div class="navbar">
+        <div class="dropdown">
+        <button class="dropbtn">Departments</button>
+          <div class="dropdown-content">
+            <a href="CSE.html">CSE</a>
+            <a href="ECE.html">ECE</a>
+            <a href="CSM.html">CSM</a>
+            <a href="Mechinical.html">Mechinical</a>
+          </div>
+          </div>
+        </div>
+        <div class="navbar">
+        <div class="dropdown">
+        <button class="dropbtn">Login</button>
+         <div class="dropdown-content">
+         <a href="Login.html">Login</a>
+         </div>
+         </div>
+         </div>
+         <br>
+         <br>
+        
+        <div class="navbar">
+        <div class="dropdown">
+        <button class="dropbtn">Acadamics</button>
+          <div class="dropdown-content">
+            <a href="UG Programms.html">UG Programms</a>
+            <a href="Diploma.html">Diploma Programms</a>
+          </div>
+          </div>
+        </div>
+        <li><a href="#">Admissions</a></li>
+        <li><a href="images.html">Images</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+   
+  </header>
+  <hr>
+   
+  <section class="hero">
+    <h2>Welcome to Our College</h2>
+    <p>Your future begins here.</p>
+  </section>
+  <section class="about">
+    <h2>About Us</h2>
+    <p>Our college is committed to academic excellence and student success.</p>
+    <img src="college.jpeg" alt="" width="50%">
+     <img src="college.jpeg" alt="" width="49%">
+  </section>
+  <footer>
+    <p>&copy; 2025 My College. All rights reserved.</p>
+  </footer>
+  <img src="college.jepg" alt="" width="100%">
+</body>
+</html>
